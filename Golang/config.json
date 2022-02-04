@@ -1,0 +1,30 @@
+{
+    "listenAddress": {
+        "scheme": "https",
+        "domain": "127.0.0.1",
+        "port": 10000
+    },
+    "frontendAddress": {
+        "scheme": "https",
+        "domain": "127.0.0.1",
+        "port": 10001
+    },
+    "testKey": "UWUWHATSTHIS",
+    "admins": [
+        "JessRed"
+    ],
+    "redis": {
+        "host": "10.0.0.55:6379",
+        "pass": "password"
+    },
+    "mySql": {
+        "address": "10.0.0.55:3306",
+        "host": "terra_user",
+        "pass": "password",
+        "db": "terra"
+    },
+    "ssl": {
+        "certificate": "ssl/localhost/localhost.crt",
+        "key": "ssl/localhost/localhost.decrypted.key"
+    }
+}
